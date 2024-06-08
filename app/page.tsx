@@ -1,4 +1,4 @@
-import Image from "next/image";
+import Link from "next/link";
 
 export default function Home() {
   return (
@@ -93,7 +93,9 @@ export default function Home() {
               <h1 className="">Discover my latest projects and innovations in Frontend and Backend Development, Android Development, and Machine Learning. Dive into a showcase of my work and achievements, and download my curriculum vitae to explore how I can contribute to your next big project.
               </h1>
               <div className="my-2">
-                <a href="" className="bg-white py-2 px-8 text-primary">Download CV</a>
+                <Link href='/cv.pdf' target="_blank" className="bg-white py-2 px-8 text-primary">
+                  Download CV
+                </Link>
               </div>
             </div>
           </div>
